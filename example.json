@@ -1,0 +1,40 @@
+{
+    "codes": [
+        {
+            "text": "For i in range(10):\n    print(\"Hello World\")",
+            "summary": "The code prints the phrase 'Hello World' 10 times"
+        },
+        {
+            "text": "function add(x, y) {\n    return x + y;\n}",
+            "summary": "The code defines a function in javascript that takes in two input numbers and returns the result of their sum"
+        },
+        {
+            "text": "#include <iostream>\nusing namespace std;\nint add(int x, int y) {\n    return x + y;\n}",
+            "summary": "The code defines a function in c++ that takes in two integers and returns the result of their sum"
+        },
+        {
+            "text": "import numpy as np\na = np.array([1, 2, 3])\nb = np.array([4, 5, 6])\nc = np.dot(a, b)\nprint(c)",
+            "summary": "The code imports the numpy library, creates two arrays and uses the dot function to find the dot product of the two arrays and prints the result"
+        },
+        {
+            "text": "let arr = [1, 2, 3, 4, 5];\nlet sum = arr.reduce((acc, val) => acc + val);\nconsole.log(sum)",
+            "summary": "The code defines an array in javascript, uses the reduce method to add all the values in the array together, and logs the sum to the console"
+        },
+        {
+            "text": "let s = 'Hello World';\ns.chars().for_each(|c| println!('{}', c));",
+            "summary": "The code defines a string variable in rust, uses the chars method to iterate through each character in the string, and prints each character to the console"
+        },
+        {
+            "text": "In a recent study, researchers found that regular exercise can lead to a significant decrease in the risk of developing heart disease. The study followed a group of individuals for a period of 10 years, and found that those who exercised regularly had a 30% lower risk of developing heart disease compared to those who did not exercise. The researchers also found that the risk reduction was greater for those who engaged in moderate to vigorous exercise, such as running or cycling, compared to those who engaged in light exercise, such as walking. The findings of this study suggest that engaging in regular exercise can have a significant impact on reducing the risk of heart disease.",
+            "summary": "A study found that regular exercise can decrease the risk of developing heart disease by 30%, with the greatest risk reduction for moderate to vigorous exercise."
+        },
+        {
+            "text": "According to a new report, the global warming is increasing the frequency of heat waves in many parts of the world. The report, which was published by the United Nations, states that heat waves are becoming more frequent, longer lasting, and more intense in many regions, including Europe, North America, and Asia. The report also states that heat waves are projected to become even more frequent and intense in the future as global warming continues. The findings of this report underscore the urgent need for action to address the issue of global warming, as heat waves can have severe consequences for human health and well-being.",
+            "summary": "A UN report found that global warming increases the frequency, intensity and duration of heat waves in many parts of the world and it may get worse in the future."
+        },
+        {
+            "text": "A new study has found that the use of social media can have a negative impact on mental health. The study, which was conducted on a group of teenagers, found that those who spent more time on social media had higher levels of anxiety and depression compared to those who spent less time on social media. The study also found that social media use was associated with a decrease in self-esteem and a increase in feelings of loneliness. The findings of this study suggest that it is important for individuals to be mindful of their social media use and to take steps to limit their use if it is having a negative impact on their mental health.",
+            "summary": "A study found that spending more time on social media can increase anxiety, depression, decrease self-esteem and increase loneliness among teenagers."
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Code Assistant",
+  "version": "1.0",
+  "description": "A Code Assistant",
+  "homepage_url": "https://www.google.com",
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Code Assistant",
+    "default_popup": "menu.html",
+    "default_icon": {
+      "64": "icons/icon.png"
+    }
+  },
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": ["context.js"]
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "webRequest",
+    "activeTab"
+  ]
+}

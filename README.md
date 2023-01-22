@@ -1,2 +1,11 @@
-# CodeAssistant
-Introducing a Firefox extension that uses AI to explain complex code in simple English. Select any piece of text and get a clear explanation. Perfect for both beginners and experienced developers. Try it now and level up your coding skills.
+# Window manipulator
+
+## What it does
+
+This extension includes a browser action with a popup specified as "window.html".
+
+The popup lets the user perform various simple operations using the windows API.
+
+# What it shows
+
+Demonstration of various windows API functions.

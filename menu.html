@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="menu.css"/>
+  </head>
+
+  <body>
+    <script src="menu.js"></script>
+
+    <div class="panel">
+      <div class="panel-section panel-section-header">
+        <div class="text-section-header">Code Assistant</div>
+      </div>
+
+      <!-- Cohere Authentication Token Input with submit button-->
+      <div class="panel-section">
+        <div class="text-section-header">Cohere Authentication Token</div>
+        <input type="text" id="cohere-auth-token" placeholder="Token" />
+        <button id="cohere-auth-token-submit">Submit</button>
+      </div>
+      <p id="cohere-auth-token-error"> Error: The Token is Invalid </p>
+
+    </div>
+
+  </body>
+
+</html>
